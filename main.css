@@ -1,3 +1,33 @@
+/* LINKS TO IMAGES - DELETE BEFORE FINAL COMMIT
+Rounded Page: http://www.csszengarden.com/211/rounded.jpg
+Bullet Points: http://www.csszengarden.com/211/bullet.jpg
+Header Image: http://www.csszengarden.com/211/header.jpg
+Title One: http://www.csszengarden.com/211/title01.jpg
+Title Two: http://www.csszengarden.com/211/title02.jpg
+Title Three: http://www.csszengarden.com/211/title03.jpg
+Title Four: http://www.csszengarden.com/211/title04.jpg
+Title Five: http://www.csszengarden.com/211/title05.jpg
+Sidebar Orchid: http://www.csszengarden.com/211/orchid.jpg */
+
+
+/* BODY */
 body {
-    background-color: purple;
+    margin: 0;
+    padding: 0;
+    font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+
+/* PAGE WRAPPER - FLEXBOX CONTAINER*/
+.page-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    margin: auto;
+    width: 630px;
+    border:0px dotted #999999;
+    background-image:url(http://www.csszengarden.com/211/rounded.jpg);
+    background-repeat: no-repeat;
+    background-position:bottom;
 }
