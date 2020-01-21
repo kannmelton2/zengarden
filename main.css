@@ -82,6 +82,7 @@ header h1, h2, .summary p:first-child {
 /* SETTINGS FOR ALL PARAGRAPHS */
 .preamble, .explanation, .participation, .benefits, .requirements {
     width: 350px;
+    padding-left: 5em;
 }
 
 /* TEXT HEADERS FOR ALL PARAGRAPHS */
@@ -134,8 +135,11 @@ header h1, h2, .summary p:first-child {
 
 /* SIDEBAR NAVIGATION */
 .sidebar {
+    display: flex;
+    flex: 1;
     position: relative;
     bottom: 240px;
+    margin-left: 20px;
     width: 180px;
     height: 810px;
     background: transparent url(http://www.csszengarden.com/211/orchid.jpg) no-repeat bottom;
